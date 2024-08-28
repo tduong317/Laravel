@@ -1,0 +1,167 @@
+ /* Add a transparency effect for thumnbail images */
+ .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  .hoverr {
+    border-radius: 5px;
+    color:black;
+    background-color:#fff;
+}
+.hover {
+    color:black;
+    background-color:#fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.50%;
+  
+}
+
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+
+figure.zoom {
+  background-position: 50% 50%;
+  position: relative;
+ 
+  overflow: hidden;
+  cursor: zoom-in;
+}
+figure.zoom img:hover {
+  opacity: 0;
+}
+figure.zoom img {
+  transition: opacity 0.5s;
+  display: block;
+  width: 100%;
+}
+label{
+  font-size: 20px;
+  font-weight: 700;
+}
+.gia {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+    margin-left: 50px;
+    border-bottom: 1px solid grey;
+}
+.soluong {
+    margin: 20px 50px;
+    margin-top: 60px;
+
+}
+.anhchitiet {
+    border: 1px solid #f0f0f0;
+}
+.cart {
+    height: 25px;
+}
+.buttonn {
+    margin-left: 50px;
+    background-color: orange;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+}
+.back {
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+.radio {
+    margin-left: 20px;
+    
+}
+.rd_in {
+    margin-left: 20px;
+}
+.column {
+    margin: 0 10px;
+    height: 140px;
+}
+.giua {
+    margin: 70px 0;
+}
